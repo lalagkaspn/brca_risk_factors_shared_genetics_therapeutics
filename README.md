@@ -1,1 +1,13 @@
-# brca_risk_factors_shared_genetics_therapeutics
+# Shared genetics between breast cancer and predisposing diseases identifies novel breast cancer treatment candidates
+
+## Panagiotis N. Lalagkas & Rachel D. Melamed
+
+In this work, we propose a novel use of genetics by using pleiotropy to point to drug repurposing. As a test case, we focus on breast cancer, the most common type of cancer in women worldwide. Breast cancer has known predisposing health conditions, such as high cholesterol and type 2 diabetes. These predisposing health conditions increase the risk for breast cancer because they share genetics with it. Therefore, we hypothesize that by dissecting the shared genetic etiology of breast cancer and a predisposing health condition, we can identify drugs that currently treat the predisposing health condition but that also impact shared pathways with cancer. To this end, we analyze publicly available Genome-Wide Association Studies (GWAS) for breast cancer and each predisposing disease to identify genes shared between them (local genetic correlation analysis). Next, we use a network biology method to link the identified shared genes to canonical pathways. We do the same for all drugs treating the predisposing disease by linking their targets to the pathways. By finding drugs that target shared pathways, we both prioritize candidate drugs for repurposing for breast cancer and provide biologica linsights that support their effect in disease treatment. Finally, we validdate our list of candidate drugs for repurposing using breast cancer clinical trials data and currently approved indicated drugs.  
+
+There are xx scripts in this repository:
+
+- `xx.R` is the script to ..
+
+All scripts are written in **R**.
+
+If you have any questions, please reach out to [panagiotis.lalagkas@gmail.com](mailto:panagiotis.lalagkas@gmail.com)
