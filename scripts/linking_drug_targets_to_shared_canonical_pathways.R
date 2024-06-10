@@ -318,7 +318,7 @@ bins = list(first = seq(1,4,1), second = seq(5,13,1), third = seq(14,36, 1), fou
 
 ## average PPR scores of canonical pathways to all genes in STRING
 # This file was created by running Personalized PageRank using a gene as seed gene and genes in one canonical pathway as target --> to speed up permutation analysis
-all_genes_cp_avg_ppr_scores = fread("/project/pi_rachel_melamed_uml_edu/Panos/GWAS/msigdb_canonical_pathways/all_genes_cp_ppr_scores.txt")
+all_genes_cp_avg_ppr_scores = fread("https://zenodo.org/records/11541756/files/all_genes_cp_ppr_scores.txt?download=1")
 
 ## BC-DEPRESSION
 bc_depression_observed = readRDS("drugs_to_shared_canonical_pathways/BC_DEPRESSION_drug_targets_sigCP_avg_ppr_scores.RDS")
