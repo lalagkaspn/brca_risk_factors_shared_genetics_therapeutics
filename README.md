@@ -6,7 +6,14 @@ In this work, we propose a novel use of genetics by using pleiotropy to point to
 
 There are xx scripts in this repository:
 
-- `xx.R` is the script to ..
+- `gwas_preprocessing.R` is the script to prepare the GWAS summary statistics data for all diseases for local genetic correlation analysis (LOGODetect input).
+- `string_pre_processing.R` is the script to preprocess the STRING protein-protein interaction network.
+- `preparing_fuma_snp2gene_input.R` is the script to prepare the input files for identifying the genes located within the positivelly correlated loci (FUMA SNP2GENE input).
+- `adding_logodetect_qvalues_to_shared_genes.R` is the script to match each gene with the LOGODetect q-value of the locus within which the gene is located.
+- `filtering_shared_genes.R` is the script to filter the identifed shared genes using the MAGMA and S-MultiXcan results.
+- `linking_shared_genes_to_canonical_pathways.R` is the script to link the filtered shared genes to canonical pathways.
+- `linking_drug_targets_to_shared_canonical_pathways.R` is the script to link drugs approved for a predisposing disease to its shared canonical pathways with breast cancer and prioritize candidate drugs for repurposing for breast cancer.
+- `evaluation.R` is the script to evaluate the prioritized candidate drugs for repurposing using drugs approved or investigated for breast cancer at the time of the study.
 
 All scripts are written in **R**.
 
