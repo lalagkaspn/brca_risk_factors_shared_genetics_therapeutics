@@ -1,5 +1,5 @@
 
-### GOAL: create figures for the manuscript
+### Create figures in the manuscript
 
 library(dplyr)
 library(data.table)
