@@ -1,0 +1,67 @@
+drug	drug_category	target	entrezID	pharmacological_action
+miglitol	Alpha-glucosidase inhibitors	GAA	2548	Yes
+miglitol	Alpha-glucosidase inhibitors	GANAB	23193	Yes
+miglitol	Alpha-glucosidase inhibitors	GANC	2595	Yes
+miglitol	Alpha-glucosidase inhibitors	MGAM	8972	Yes
+acarbose	Alpha-glucosidase inhibitors	MGAM	8972	Yes
+acarbose	Alpha-glucosidase inhibitors	SI	6746	Yes
+acarbose	Alpha-glucosidase inhibitors	AMY2A	279	Yes
+acarbose	Alpha-glucosidase inhibitors	GAA	2548	Unknown
+metformin	Biguanide	ETFDH	2110	Yes
+metformin	Biguanide	PRKAB1	5564	Yes
+metformin	Biguanide	GPD1	2819	Unknown
+saxagliptin	DPP-4 inhibitors	DPP4	1803	Yes
+vildagliptin	DPP-4 inhibitors	DPP4	1803	Yes
+sitagliptin	DPP-4 inhibitors	DPP4	1803	Yes
+linagliptin	DPP-4 inhibitors	DPP4	1803	Yes
+alogliptin	DPP-4 inhibitors	DPP4	1803	Yes
+exenatide	GLP-1 agonists	GLP1R	2740	Yes
+liraglutide	GLP-1 agonists	GLP1R	2740	Yes
+dulaglutide	GLP-1 agonists	GLP1R	2740	Yes
+lixisenatide	GLP-1 agonists	GLP1R	2740	Yes
+semaglutide	GLP-1 agonists	GLP1R	2740	Yes
+insulin	Insulin	INSR	3643	Yes
+insulin	Insulin	IGF1R	3480	Unknown
+insulin	Insulin	CPE	1363	Unknown
+insulin	Insulin	LRP2	4036	Unknown
+insulin	Insulin	IGFBP7	3490	Unknown
+repaglinide	Meglitinides	ABCC8	6833	Yes
+repaglinide	Meglitinides	PPARG	5468	Yes
+repaglinide	Meglitinides	HRH1	3269	Yes
+nateglinide	Meglitinides	ABCC8	6833	Yes
+nateglinide	Meglitinides	PPARG	5468	Yes
+canagliflozin	SGLT-2 inhibitors	SLC5A2	6524	Yes
+dapagliflozin	SGLT-2 inhibitors	SLC5A2	6524	Yes
+empagliflozin	SGLT-2 inhibitors	SLC5A2	6524	Yes
+ertugliflozin	SGLT-2 inhibitors	SLC5A2	6524	Yes
+tolbutamide	Sulfonylurea	ABCC8	6833	Yes
+tolbutamide	Sulfonylurea	KCNJ1	3758	Unknown
+tolazamide	Sulfonylurea	ABCC8	6833	Yes
+tolazamide	Sulfonylurea	KCNJ11	3767	Yes
+glimepiride	Sulfonylurea	KCNJ11	3767	Yes
+glimepiride	Sulfonylurea	KCNJ1	3758	Yes
+glimepiride	Sulfonylurea	ABCC8	6833	Yes
+glyburide	Sulfonylurea	KCNJ11	3767	Yes
+glyburide	Sulfonylurea	ABCC8	6833	Yes
+glyburide	Sulfonylurea	ABCC9	10060	Unknown
+glyburide	Sulfonylurea	ABCB11	8647	Unknown
+glyburide	Sulfonylurea	ABCA1	19	Unknown
+glyburide	Sulfonylurea	KCNJ8	3764	Unknown
+glyburide	Sulfonylurea	CPT1A	1374	Unknown
+glyburide	Sulfonylurea	CFTR	1080	Unknown
+glyburide	Sulfonylurea	TRPM4	54795	Unknown
+gliclazide	Sulfonylurea	ABCC8	6833	Yes
+gliclazide	Sulfonylurea	VEGFA	7422	Yes
+glipizide	Sulfonylurea	ABCC8	6833	Yes
+glipizide	Sulfonylurea	PPARG	5468	Unknown
+gliquidone	Sulfonylurea	ABCC8	6833	Yes
+gliquidone	Sulfonylurea	KCNJ8	3764	Yes
+pioglitazone	Thiazolidinediones	PPARG	5468	Yes
+pioglitazone	Thiazolidinediones	MAOB	4129	Unknown
+rosiglitazone	Thiazolidinediones	PPARG	5468	Yes
+rosiglitazone	Thiazolidinediones	ACSL4	2182	Unknown
+rosiglitazone	Thiazolidinediones	PPARA	5465	Unknown
+rosiglitazone	Thiazolidinediones	PPARD	5467	Unknown
+rosiglitazone	Thiazolidinediones	RXRA	6256	Unknown
+rosiglitazone	Thiazolidinediones	RXRB	6257	Unknown
+rosiglitazone	Thiazolidinediones	RXRG	6258	Unknown

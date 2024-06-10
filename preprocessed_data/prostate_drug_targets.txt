@@ -1,0 +1,49 @@
+drug	drug_category	target	entrezID	pharmacological_action
+darolutamide	Androgen receptor antagonists	AR	367	Yes
+darolutamide	Androgen receptor antagonists	PGR	5241	Unknown
+apalutamide	Androgen receptor inhibitors	AR	367	Yes
+apalutamide	Androgen receptor inhibitors	GABRA1	2554	No
+apalutamide	Androgen receptor inhibitors	GABRA2	2555	No
+apalutamide	Androgen receptor inhibitors	GABRA3	2556	No
+apalutamide	Androgen receptor inhibitors	GABRA4	2557	No
+apalutamide	Androgen receptor inhibitors	GABRA5	2558	No
+apalutamide	Androgen receptor inhibitors	GABRA6	2559	No
+apalutamide	Androgen receptor inhibitors	GABRB1	2560	No
+apalutamide	Androgen receptor inhibitors	GABRB2	2561	No
+apalutamide	Androgen receptor inhibitors	GABRB3	2562	No
+apalutamide	Androgen receptor inhibitors	GABRD	2563	No
+apalutamide	Androgen receptor inhibitors	GABRE	2564	No
+apalutamide	Androgen receptor inhibitors	GABRG1	2565	No
+apalutamide	Androgen receptor inhibitors	GABRG2	2566	No
+apalutamide	Androgen receptor inhibitors	GABRG3	2567	No
+apalutamide	Androgen receptor inhibitors	GABRP	2568	No
+apalutamide	Androgen receptor inhibitors	GABRQ	55879	No
+bicalutamide	Androgen receptor inhibitors	AR	367	Yes
+enzalutamide	Androgen receptor inhibitors	AR	367	Yes
+mitoxantrone	Anthracenediones	TOP2A	7153	Yes
+abiraterone	Antiandrogens	CYP17A1	1586	Yes
+flutamide	Antiandrogens	AR	367	Yes
+flutamide	Antiandrogens	AHR	196	Yes
+flutamide	Antiandrogens	NR1I2	8856	Yes
+nilutamide	Antiandrogens	AR	367	Yes
+Sipuleucel-T	Autologous cellular immunotherapy	ACPP	55	Yes
+leuprolide	GnRH receptor agonists	GNRHR	2798	Yes
+goserelin	GnRH receptor agonists	LHCGR	3973	Yes
+goserelin	GnRH receptor agonists	GNRHR	2798	Yes
+degarelix	GnRH receptor antagonists	GNRHR	2798	Yes
+relugolix	GnRH receptor antagonists	GNRHR	2798	Yes
+cabazitaxel	Microtubule inhibitors	TUBB1	81027	Yes
+olaparib	PARP inhibitors	PARP1	142	Yes
+olaparib	PARP inhibitors	PARP2	10038	Yes
+olaparib	PARP inhibitors	PARP3	10039	Yes
+olaparib	PARP inhibitors	AKR1C3	8644	Unknown
+rucaparib	PARP inhibitors	PARP1	142	Yes
+rucaparib	PARP inhibitors	PARP2	10038	Yes
+rucaparib	PARP inhibitors	PARP3	10039	Yes
+Lutetium Lu-177 vipivotide tetraxetan	Radioligands	KLK3	354	Yes
+docetaxel	Taxanes	TUBB1	81027	Yes
+docetaxel	Taxanes	MAP2	4133	Yes
+docetaxel	Taxanes	MAP4	4134	Yes
+docetaxel	Taxanes	MAPT	4137	Yes
+docetaxel	Taxanes	BCL2	596	Unknown
+docetaxel	Taxanes	NR1I2	8856	Unknown

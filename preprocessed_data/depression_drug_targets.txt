@@ -1,0 +1,323 @@
+drug	drug_category	target	entrezID	pharmacological_action
+tranylcypromine	Monoamine oxidase inhibitors (MAOI)	MAOB	4129	Yes
+tranylcypromine	Monoamine oxidase inhibitors (MAOI)	MAOA	4128	Yes
+phenelzine	Monoamine oxidase inhibitors (MAOI)	MAOB	4129	Yes
+phenelzine	Monoamine oxidase inhibitors (MAOI)	MAOA	4128	Yes
+phenelzine	Monoamine oxidase inhibitors (MAOI)	AOC3	8639	Unknown
+phenelzine	Monoamine oxidase inhibitors (MAOI)	ABAT	18	Unknown
+phenelzine	Monoamine oxidase inhibitors (MAOI)	GPT	2875	Unknown
+phenelzine	Monoamine oxidase inhibitors (MAOI)	GPT2	84706	Unknown
+phenelzine	Monoamine oxidase inhibitors (MAOI)	GAD65	2572	Unknown
+bupropion	Norepinephrine-dopamine reuptake inhibitor (NDPI)	SLC6A3	6531	Yes
+bupropion	Norepinephrine-dopamine reuptake inhibitor (NDPI)	SLC6A2	6530	Yes
+bupropion	Norepinephrine-dopamine reuptake inhibitor (NDPI)	CHRNA3	1136	Unknown
+bupropion	Norepinephrine-dopamine reuptake inhibitor (NDPI)	HTR3A	3359	Unknown
+fluvoxamine	Selective serotonin reuptake inhibitors (SSRI)	SLC6A4	6532	Yes
+fluvoxamine	Selective serotonin reuptake inhibitors (SSRI)	KCNH2	3757	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	SLC6A4	6532	Yes
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	SLC6A2	6530	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR2A	3356	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	DRD2	1813	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HRH1	3269	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR2B	3357	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRA1A	148	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRA1B	147	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRA1D	146	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRA2A	150	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRA2B	151	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRA2C	152	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRB1	153	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRB2	154	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	ADRB3	155	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR1A	3350	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR1B	3351	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR1D	3352	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR1E	3354	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR1F	3355	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR2C	3358	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR3A	3359	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR3B	9177	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR3C	170572	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR3D	200909	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR3E	285242	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR4	3360	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR6	3362	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR7	3363	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRM1	1128	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRM2	1129	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRM3	1131	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRM4	1132	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRM5	1133	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	DRD1	1812	Unknown
+paroxetine	Selective serotonin reuptake inhibitors (SSRI)	DRD5	1816	Unknown
+citalopram	Selective serotonin reuptake inhibitors (SSRI)	SLC6A4	6532	Yes
+citalopram	Selective serotonin reuptake inhibitors (SSRI)	HRH1	3269	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	SLC6A4	6532	Yes
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	CHRM1	1128	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	HRH1	3269	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	HTR1A	3350	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	HTR2A	3356	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	HTR2C	3358	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	DRD2	1813	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	SLC6A2	6530	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	SLC6A3	6531	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	ADRA1A	148	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	ADRA1B	147	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	ADRA1D	146	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	ADRA2B	151	Unknown
+escitalopram	Selective serotonin reuptake inhibitors (SSRI)	ADRA2C	152	Unknown
+sertraline	Selective serotonin reuptake inhibitors (SSRI)	SLC6A4	6532	Yes
+sertraline	Selective serotonin reuptake inhibitors (SSRI)	SLC6A3	6531	Unknown
+sertraline	Selective serotonin reuptake inhibitors (SSRI)	SLC6A2	6530	Unknown
+sertraline	Selective serotonin reuptake inhibitors (SSRI)	SLC29A4	222962	Unknown
+sertraline	Selective serotonin reuptake inhibitors (SSRI)	PGRMC1	10857	Unknown
+sertraline	Selective serotonin reuptake inhibitors (SSRI)	SIGMAR1	10280	Unknown
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	SLC6A4	6532	Yes
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	HTR2C	3358	Unknown
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRNA2	1135	Unknown
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRNA3	1136	Unknown
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	CHRNB4	1143	Unknown
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	CKS1B	1163	Unknown
+fluoxetine	Selective serotonin reuptake inhibitors (SSRI)	KCNH2	3757	Unknown
+vilazodone	Serotonin modulators	SLC6A4	6532	Yes
+vilazodone	Serotonin modulators	HTR1A	3350	Unknown
+vortioxetine	Serotonin modulators	SLC6A4	6532	Yes
+vortioxetine	Serotonin modulators	HTR3A	3359	Yes
+vortioxetine	Serotonin modulators	HTR7	3363	Yes
+vortioxetine	Serotonin modulators	HTR1B	3351	Yes
+vortioxetine	Serotonin modulators	HTR1A	3350	Yes
+vortioxetine	Serotonin modulators	ADRB1	153	Unknown
+vortioxetine	Serotonin modulators	SLC6A2	6530	Unknown
+trazodone	Serotonin reuptake inhibitors	HTR2A	3356	Yes
+trazodone	Serotonin reuptake inhibitors	HTR2C	3358	Yes
+trazodone	Serotonin reuptake inhibitors	SLC6A4	6532	Yes
+trazodone	Serotonin reuptake inhibitors	HTR1A	3350	Yes
+trazodone	Serotonin reuptake inhibitors	ADRA1A	148	No
+trazodone	Serotonin reuptake inhibitors	ADRA2A	150	No
+trazodone	Serotonin reuptake inhibitors	HRH1	3269	Unknown
+duloxetine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A4	6532	Yes
+duloxetine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A2	6530	Yes
+duloxetine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A3	6531	Unknown
+levomilnacipran	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A4	6532	Yes
+levomilnacipran	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A2	6530	Yes
+desvenlafaxine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A4	6532	Yes
+desvenlafaxine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A2	6530	Yes
+desvenlafaxine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A3	6531	Unknown
+venlafaxine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A2	6530	Yes
+venlafaxine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A4	6532	Yes
+venlafaxine	Serotonin-norepinephrine reuptake inhibitor (SNRI)	SLC6A3	6531	Unknown
+maprotiline	Tetracyclic antidepressants	SLC6A2	6530	Yes
+maprotiline	Tetracyclic antidepressants	HRH1	3269	No
+maprotiline	Tetracyclic antidepressants	CHRM1	1128	No
+maprotiline	Tetracyclic antidepressants	CHRM2	1129	No
+maprotiline	Tetracyclic antidepressants	CHRM3	1131	No
+maprotiline	Tetracyclic antidepressants	CHRM4	1132	No
+maprotiline	Tetracyclic antidepressants	CHRM5	1133	No
+maprotiline	Tetracyclic antidepressants	ADRA1A	148	No
+maprotiline	Tetracyclic antidepressants	ADRA1B	147	No
+maprotiline	Tetracyclic antidepressants	ADRA1D	146	No
+maprotiline	Tetracyclic antidepressants	HTR2A	3356	No
+maprotiline	Tetracyclic antidepressants	HTR2C	3358	No
+maprotiline	Tetracyclic antidepressants	HTR7	3363	No
+maprotiline	Tetracyclic antidepressants	DRD2	1813	No
+maprotiline	Tetracyclic antidepressants	ADRA2A	150	Unknown
+maprotiline	Tetracyclic antidepressants	ADRA2B	151	Unknown
+maprotiline	Tetracyclic antidepressants	ADRA2C	152	Unknown
+mirtazapine	Tetracyclic antidepressants	HTR2A	3356	Yes
+mirtazapine	Tetracyclic antidepressants	ADRA2A	150	Yes
+mirtazapine	Tetracyclic antidepressants	ADRA1A	148	Unknown
+mirtazapine	Tetracyclic antidepressants	ADRA1B	147	Unknown
+mirtazapine	Tetracyclic antidepressants	ADRA1D	146	Unknown
+mirtazapine	Tetracyclic antidepressants	HTR2C	3358	Unknown
+mirtazapine	Tetracyclic antidepressants	OPRK1	4986	Unknown
+mirtazapine	Tetracyclic antidepressants	HRH1	3269	No
+desipramine	Tricyclic antidepressants	SLC6A2	6530	Yes
+desipramine	Tricyclic antidepressants	SLC6A4	6532	Yes
+desipramine	Tricyclic antidepressants	HTR2A	3356	Yes
+desipramine	Tricyclic antidepressants	ADRB2	154	Unknown
+desipramine	Tricyclic antidepressants	ADRB1	153	Unknown
+desipramine	Tricyclic antidepressants	SMPD1	6609	Unknown
+desipramine	Tricyclic antidepressants	HRH1	3269	No
+desipramine	Tricyclic antidepressants	ADRA1A	148	No
+desipramine	Tricyclic antidepressants	ADRA1B	147	No
+desipramine	Tricyclic antidepressants	ADRA1D	146	No
+desipramine	Tricyclic antidepressants	CHRM1	1128	No
+desipramine	Tricyclic antidepressants	CHRM2	1129	No
+desipramine	Tricyclic antidepressants	CHRM3	1131	No
+desipramine	Tricyclic antidepressants	CHRM4	1132	No
+desipramine	Tricyclic antidepressants	CHRM5	1133	No
+desipramine	Tricyclic antidepressants	HTR1A	3350	Unknown
+desipramine	Tricyclic antidepressants	HTR2C	3358	Unknown
+desipramine	Tricyclic antidepressants	DRD2	1813	Unknown
+desipramine	Tricyclic antidepressants	ADRA2A	150	Unknown
+desipramine	Tricyclic antidepressants	ADRA2B	151	Unknown
+desipramine	Tricyclic antidepressants	ADRA2C	152	Unknown
+doxepin	Tricyclic antidepressants	HRH1	3269	Yes
+doxepin	Tricyclic antidepressants	HRH2	3274	Yes
+doxepin	Tricyclic antidepressants	SLC6A2	6530	Yes
+doxepin	Tricyclic antidepressants	SLC6A4	6532	Yes
+doxepin	Tricyclic antidepressants	HTR2A	3356	Unknown
+doxepin	Tricyclic antidepressants	HTR2B	3357	Unknown
+doxepin	Tricyclic antidepressants	HTR2C	3358	Unknown
+doxepin	Tricyclic antidepressants	CHRM1	1128	Unknown
+doxepin	Tricyclic antidepressants	CHRM2	1129	Unknown
+doxepin	Tricyclic antidepressants	CHRM3	1131	Unknown
+doxepin	Tricyclic antidepressants	CHRM4	1132	Unknown
+doxepin	Tricyclic antidepressants	CHRM5	1133	Unknown
+doxepin	Tricyclic antidepressants	ADRA1A	148	Unknown
+doxepin	Tricyclic antidepressants	ADRA1B	147	Unknown
+doxepin	Tricyclic antidepressants	ADRA1D	146	Unknown
+doxepin	Tricyclic antidepressants	HTR1A	3350	Unknown
+doxepin	Tricyclic antidepressants	HTR6	3362	Unknown
+doxepin	Tricyclic antidepressants	HRH4	59340	Unknown
+doxepin	Tricyclic antidepressants	KCNH2	3757	Unknown
+protriptyline	Tricyclic antidepressants	SLC6A2	6530	Yes
+protriptyline	Tricyclic antidepressants	SLC6A4	6532	Yes
+trimipramine	Tricyclic antidepressants	SLC6A2	6530	Yes
+trimipramine	Tricyclic antidepressants	SLC6A4	6532	Yes
+trimipramine	Tricyclic antidepressants	SLC6A3	6531	Unknown
+trimipramine	Tricyclic antidepressants	HTR2A	3356	Unknown
+trimipramine	Tricyclic antidepressants	HTR1A	3350	Unknown
+trimipramine	Tricyclic antidepressants	ADRA1A	148	Unknown
+trimipramine	Tricyclic antidepressants	ADRA1B	147	Unknown
+trimipramine	Tricyclic antidepressants	DRD2	1813	Unknown
+trimipramine	Tricyclic antidepressants	ADRA2B	151	Unknown
+trimipramine	Tricyclic antidepressants	HRH1	3269	Unknown
+trimipramine	Tricyclic antidepressants	HTR2C	3358	Unknown
+trimipramine	Tricyclic antidepressants	HTR3A	3359	Unknown
+trimipramine	Tricyclic antidepressants	HTR1D	3352	Unknown
+trimipramine	Tricyclic antidepressants	ADRA2A	150	Unknown
+trimipramine	Tricyclic antidepressants	DRD1	1812	Unknown
+trimipramine	Tricyclic antidepressants	DRD5	1816	Unknown
+trimipramine	Tricyclic antidepressants	ADRB1	153	Unknown
+trimipramine	Tricyclic antidepressants	ADRB2	154	Unknown
+trimipramine	Tricyclic antidepressants	ADRB3	155	Unknown
+trimipramine	Tricyclic antidepressants	CHRM1	1128	Unknown
+trimipramine	Tricyclic antidepressants	CHRM2	1129	Unknown
+trimipramine	Tricyclic antidepressants	CHRM3	1131	Unknown
+trimipramine	Tricyclic antidepressants	CHRM4	1132	Unknown
+trimipramine	Tricyclic antidepressants	CHRM5	1133	Unknown
+amoxapine	Tricyclic antidepressants	SLC6A4	6532	Yes
+amoxapine	Tricyclic antidepressants	SLC6A2	6530	Unknown
+amoxapine	Tricyclic antidepressants	DRD1	1812	Unknown
+amoxapine	Tricyclic antidepressants	DRD2	1813	Unknown
+amoxapine	Tricyclic antidepressants	HTR2C	3358	Unknown
+amoxapine	Tricyclic antidepressants	HTR6	3362	Unknown
+amoxapine	Tricyclic antidepressants	HTR7	3363	Unknown
+amoxapine	Tricyclic antidepressants	DRD3	1814	Unknown
+amoxapine	Tricyclic antidepressants	DRD4	1815	Unknown
+amoxapine	Tricyclic antidepressants	HRH1	3269	Unknown
+amoxapine	Tricyclic antidepressants	ADRA1A	148	No
+amoxapine	Tricyclic antidepressants	ADRA1B	147	No
+amoxapine	Tricyclic antidepressants	ADRA1D	146	No
+amoxapine	Tricyclic antidepressants	CHRM1	1128	Unknown
+amoxapine	Tricyclic antidepressants	CHRM2	1129	Unknown
+amoxapine	Tricyclic antidepressants	CHRM3	1131	Unknown
+amoxapine	Tricyclic antidepressants	CHRM4	1132	Unknown
+amoxapine	Tricyclic antidepressants	CHRM5	1133	Unknown
+amoxapine	Tricyclic antidepressants	HTR2B	3357	Unknown
+amoxapine	Tricyclic antidepressants	HTR3A	3359	Unknown
+amoxapine	Tricyclic antidepressants	HTR1A	3350	Unknown
+amoxapine	Tricyclic antidepressants	HTR1B	3351	Unknown
+amoxapine	Tricyclic antidepressants	ADRA2A	150	Unknown
+amoxapine	Tricyclic antidepressants	ADRA2B	151	Unknown
+amoxapine	Tricyclic antidepressants	ADRA2C	152	Unknown
+amoxapine	Tricyclic antidepressants	HRH4	59340	Unknown
+amoxapine	Tricyclic antidepressants	SLC6A3	6531	Unknown
+amoxapine	Tricyclic antidepressants	GABRA1	2554	Unknown
+amoxapine	Tricyclic antidepressants	GABRA2	2555	Unknown
+amoxapine	Tricyclic antidepressants	GABRA3	2556	Unknown
+amoxapine	Tricyclic antidepressants	GABRA4	2557	Unknown
+amoxapine	Tricyclic antidepressants	GABRA5	2558	Unknown
+amoxapine	Tricyclic antidepressants	GABRA6	2559	Unknown
+amoxapine	Tricyclic antidepressants	GABRB1	2560	Unknown
+amoxapine	Tricyclic antidepressants	GABRB2	2561	Unknown
+amoxapine	Tricyclic antidepressants	GABRB3	2562	Unknown
+amoxapine	Tricyclic antidepressants	GABRD	2563	Unknown
+amoxapine	Tricyclic antidepressants	GABRE	2564	Unknown
+amoxapine	Tricyclic antidepressants	GABRG1	2565	Unknown
+amoxapine	Tricyclic antidepressants	GABRG2	2566	Unknown
+amoxapine	Tricyclic antidepressants	GABRG3	2567	Unknown
+amoxapine	Tricyclic antidepressants	GABRP	2568	Unknown
+amoxapine	Tricyclic antidepressants	GABRQ	55879	Unknown
+amitriptyline	Tricyclic antidepressants	SLC6A2	6530	Yes
+amitriptyline	Tricyclic antidepressants	SLC6A4	6532	Yes
+amitriptyline	Tricyclic antidepressants	HTR2A	3356	Yes
+amitriptyline	Tricyclic antidepressants	HTR1A	3350	Unknown
+amitriptyline	Tricyclic antidepressants	OPRD1	4985	Unknown
+amitriptyline	Tricyclic antidepressants	OPRK1	4986	Unknown
+amitriptyline	Tricyclic antidepressants	NTRK1	4914	Unknown
+amitriptyline	Tricyclic antidepressants	NTRK2	4915	Unknown
+amitriptyline	Tricyclic antidepressants	ADRA1A	148	No
+amitriptyline	Tricyclic antidepressants	ADRA1D	146	No
+amitriptyline	Tricyclic antidepressants	ADRA2A	150	No
+amitriptyline	Tricyclic antidepressants	HRH1	3269	No
+amitriptyline	Tricyclic antidepressants	KCNQ2	3785	No
+amitriptyline	Tricyclic antidepressants	KCNA1	3736	No
+amitriptyline	Tricyclic antidepressants	HRH2	3274	Unknown
+amitriptyline	Tricyclic antidepressants	HRH4	59340	Unknown
+amitriptyline	Tricyclic antidepressants	SIGMAR1	10280	Unknown
+amitriptyline	Tricyclic antidepressants	HTR2C	3358	Unknown
+amitriptyline	Tricyclic antidepressants	ADRA1B	147	Unknown
+amitriptyline	Tricyclic antidepressants	HTR7	3363	Unknown
+amitriptyline	Tricyclic antidepressants	HTR1D	3352	Unknown
+amitriptyline	Tricyclic antidepressants	OPRM1	4988	Unknown
+amitriptyline	Tricyclic antidepressants	HTR1B	3351	Unknown
+amitriptyline	Tricyclic antidepressants	HTR6	3362	Unknown
+amitriptyline	Tricyclic antidepressants	KCNQ3	3786	Unknown
+amitriptyline	Tricyclic antidepressants	CHRM1	1128	Unknown
+amitriptyline	Tricyclic antidepressants	CHRM2	1129	Unknown
+amitriptyline	Tricyclic antidepressants	CHRM3	1131	Unknown
+amitriptyline	Tricyclic antidepressants	CHRM4	1132	Unknown
+amitriptyline	Tricyclic antidepressants	CHRM5	1133	Unknown
+amitriptyline	Tricyclic antidepressants	KCNH2	3757	Unknown
+amitriptyline	Tricyclic antidepressants	KCNH6	81033	Unknown
+amitriptyline	Tricyclic antidepressants	KCNH7	90134	Unknown
+imipramine	Tricyclic antidepressants	SLC6A2	6530	Yes
+imipramine	Tricyclic antidepressants	SLC6A4	6532	Yes
+imipramine	Tricyclic antidepressants	HTR2A	3356	Unknown
+imipramine	Tricyclic antidepressants	HRH1	3269	No
+imipramine	Tricyclic antidepressants	ADRA1A	148	No
+imipramine	Tricyclic antidepressants	ADRA1D	146	No
+imipramine	Tricyclic antidepressants	CHRM1	1128	No
+imipramine	Tricyclic antidepressants	CHRM2	1129	No
+imipramine	Tricyclic antidepressants	CHRM3	1131	No
+imipramine	Tricyclic antidepressants	CHRM4	1132	No
+imipramine	Tricyclic antidepressants	CHRM5	1133	No
+imipramine	Tricyclic antidepressants	KCND2	3751	No
+imipramine	Tricyclic antidepressants	KCND3	3752	No
+imipramine	Tricyclic antidepressants	HTR2C	3358	Unknown
+imipramine	Tricyclic antidepressants	ADRA1B	147	Unknown
+imipramine	Tricyclic antidepressants	HTR7	3363	Unknown
+imipramine	Tricyclic antidepressants	DRD1	1812	Unknown
+imipramine	Tricyclic antidepressants	DRD5	1816	Unknown
+imipramine	Tricyclic antidepressants	DRD2	1813	Unknown
+imipramine	Tricyclic antidepressants	KCNH2	3757	Unknown
+imipramine	Tricyclic antidepressants	SLC6A3	6531	Unknown
+imipramine	Tricyclic antidepressants	HTR1A	3350	Unknown
+imipramine	Tricyclic antidepressants	HTR6	3362	Unknown
+imipramine	Tricyclic antidepressants	KCNH1	3756	Unknown
+imipramine	Tricyclic antidepressants	ORM2	5005	Unknown
+nortriptyline	Tricyclic antidepressants	SLC6A2	6530	Yes
+nortriptyline	Tricyclic antidepressants	SLC6A4	6532	Yes
+nortriptyline	Tricyclic antidepressants	HTR2A	3356	Yes
+nortriptyline	Tricyclic antidepressants	HTR1A	3350	Unknown
+nortriptyline	Tricyclic antidepressants	HRH1	3269	No
+nortriptyline	Tricyclic antidepressants	ADRA1A	148	No
+nortriptyline	Tricyclic antidepressants	ADRA1D	146	No
+nortriptyline	Tricyclic antidepressants	HTR2C	3358	Unknown
+nortriptyline	Tricyclic antidepressants	ADRA1B	147	Unknown
+nortriptyline	Tricyclic antidepressants	ADRA2A	150	Unknown
+nortriptyline	Tricyclic antidepressants	ADRA2B	151	Unknown
+nortriptyline	Tricyclic antidepressants	ADRA2C	152	Unknown
+nortriptyline	Tricyclic antidepressants	ADRB1	153	Unknown
+nortriptyline	Tricyclic antidepressants	ADRB2	154	Unknown
+nortriptyline	Tricyclic antidepressants	ADRB3	155	Unknown
+nortriptyline	Tricyclic antidepressants	DRD2	1813	Unknown
+nortriptyline	Tricyclic antidepressants	SIGMAR1	10280	Unknown
+nortriptyline	Tricyclic antidepressants	PGRMC1	10857	Unknown
+nortriptyline	Tricyclic antidepressants	CHRM1	1128	Unknown
+nortriptyline	Tricyclic antidepressants	CHRM2	1129	Unknown
+nortriptyline	Tricyclic antidepressants	CHRM3	1131	Unknown
+nortriptyline	Tricyclic antidepressants	CHRM4	1132	Unknown
+nortriptyline	Tricyclic antidepressants	CHRM5	1133	Unknown

@@ -1,0 +1,48 @@
+drug	drug_category	target	entrezID	pharmacological_action
+bempedoic acid	ACL inhibitors	ACLY	47	Yes
+ezetimibe	cholesterol absorption inhibitors	NPC1L1	29881	Yes
+ezetimibe	cholesterol absorption inhibitors	SOAT1	6646	Yes
+ezetimibe	cholesterol absorption inhibitors	ANPEP	290	Unknown
+clofibrate	fibrates	PPARA	5465	Yes
+fenofibric acid	fibrates	PPARA	5465	Yes
+fenofibric acid	fibrates	MMP25	64386	Unknown
+fenofibric acid	fibrates	PPARG	5468	Unknown
+fenofibric acid	fibrates	PPARD	5467	Unknown
+fenofibric acid	fibrates	NR1I2	8856	Unknown
+fenofibrate	fibrates	PPARA	5465	Yes
+fenofibrate	fibrates	NR1I2	8856	Unknown
+fenofibrate	fibrates	MMP25	64386	Unknown
+gemfibrozil	fibrates	PPARA	5465	Yes
+gemfibrozil	fibrates	SLCO1B1	10599	Unknown
+gemfibrozil	fibrates	SLC22A8	9376	Unknown
+gemfibrozil	fibrates	SLCO2B1	11309	Unknown
+gemfibrozil	fibrates	SLCO1B3	28234	Unknown
+evolocumab	pcsk9 inhibitor	PCSK9	255738	Yes
+alirocumab	pcsk9 inhibitor	PCSK9	255738	Yes
+probucol	probucol	ABCA1	19	Yes
+probucol	probucol	CES1	1066	Yes
+lovastatin	statins	HMGCR	3156	Yes
+lovastatin	statins	HDAC2	3066	No
+lovastatin	statins	ITGAL	3683	Unknown
+pravastatin	statins	HMGCR	3156	Yes
+pravastatin	statins	HDAC2	3066	Unknown
+rosuvastatin	statins	HMGCR	3156	Yes
+rosuvastatin	statins	ITGAL	3683	Unknown
+simvastatin	statins	HMGCR	3156	Yes
+simvastatin	statins	HDAC2	3066	Unknown
+simvastatin	statins	ITGAL	3683	Unknown
+fluvastatin	statins	HMGCR	3156	Yes
+fluvastatin	statins	HDAC2	3066	Unknown
+pitavastatin	statins	HMGCR	3156	Yes
+pitavastatin	statins	ITGAL	3683	Unknown
+atorvastatin	statins	HMGCR	3156	Yes
+atorvastatin	statins	DPP4	1803	Unknown
+atorvastatin	statins	AHR	196	Unknown
+atorvastatin	statins	HDAC2	3066	Unknown
+atorvastatin	statins	NR1I3	9970	Unknown
+cerivastatin	statins	HMGCR	3156	Yes
+mevastatin	statins	HMGCR	3156	Yes
+niacin	vitamin B	HCAR3	8843	Yes
+niacin	vitamin B	HCAR2	338442	Yes
+niacin	vitamin B	QPRT	23475	Yes
+niacin	vitamin B	NNMT	4837	Yes

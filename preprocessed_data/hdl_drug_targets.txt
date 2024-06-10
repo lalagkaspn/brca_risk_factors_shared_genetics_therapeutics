@@ -1,0 +1,23 @@
+drug	drug_category	target	entrezID	pharmacological_action
+fenofibrate	fibrates	PPARA	5465	Yes
+fenofibrate	fibrates	NR1I2	8856	Unknown
+fenofibrate	fibrates	MMP25	64386	Unknown
+gemfibrozil	fibrates	PPARA	5465	Yes
+gemfibrozil	fibrates	SLCO1B1	10599	Unknown
+gemfibrozil	fibrates	SLC22A8	9376	Unknown
+gemfibrozil	fibrates	SLCO2B1	11309	Unknown
+gemfibrozil	fibrates	SLCO1B3	28234	Unknown
+atorvastatin	statins	HMGCR	3156	Yes
+atorvastatin	statins	DPP4	1803	Unknown
+atorvastatin	statins	AHR	196	Unknown
+atorvastatin	statins	HDAC2	3066	Unknown
+atorvastatin	statins	NR1I3	9970	Unknown
+simvastatin	statins	HMGCR	3156	Yes
+simvastatin	statins	ITGAL	3683	Unknown
+simvastatin	statins	HDAC2	3066	Unknown
+rosuvastatin	statins	HMGCR	3156	Yes
+rosuvastatin	statins	ITGAL	3683	Unknown
+niacin	vitamin B	HCAR3	8843	Yes
+niacin	vitamin B	HCAR2	338442	Yes
+niacin	vitamin B	QPRT	23475	Yes
+niacin	vitamin B	NNMT	4837	Yes
