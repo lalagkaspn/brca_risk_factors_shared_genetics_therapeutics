@@ -600,12 +600,12 @@ p1 = ggplot(shared_loci_ultimate_negative, aes(x = value, y = disease)) +
   scale_x_reverse(breaks = seq(0, 40, 5), limits = c(40, 0)) +
   scale_y_discrete(position = "right") +
   theme_bw() +
-  theme(plot.title = element_text(size = 44, color = "black", family = "Arial"),
+  theme(plot.title = element_text(size = 50, color = "black", family = "Arial"),
         panel.grid.major = element_blank(),
-        axis.text.y.right = element_text(size = 42, color = "black", family = "Arial", face = "bold", hjust = 0.5,
+        axis.text.y.right = element_text(size = 46, color = "black", family = "Arial", face = "bold", hjust = 0.5,
                                          margin = margin(t = 0, r = 0, b = 0, l = 40)),
-        axis.text.x = element_text(size = 40, color = "black", family = "Arial"),
-        axis.title.x = element_text(size = 40, color = "black", family = "Arial"))
+        axis.text.x = element_text(size = 50, color = "black", family = "Arial"),
+        axis.title.x = element_text(size = 50, color = "black", family = "Arial"))
 p2 = ggplot(shared_loci_ultimate_positive, aes(x = value, y = disease)) +
   geom_col(fill = "#1ABC9C") + 
   labs(title = bquote(bold("Positively") ~ "correlated loci with breast cancer")) +
@@ -613,14 +613,14 @@ p2 = ggplot(shared_loci_ultimate_positive, aes(x = value, y = disease)) +
   ylab("") +
   scale_x_continuous(breaks = seq(0, 40, 5), limits = c(0, 40)) +
   theme_bw() +
-  theme(plot.title = element_text(size = 44, color = "black", family = "Arial"),
+  theme(plot.title = element_text(size = 50, color = "black", family = "Arial"),
         panel.grid.major = element_blank(),
         axis.text.y = element_blank(),
-        axis.text.x = element_text(size = 40, color = "black", family = "Arial"),
-        axis.title.x = element_text(size = 40, color = "black", family = "Arial"))
+        axis.text.x = element_text(size = 50, color = "black", family = "Arial"),
+        axis.title.x = element_text(size = 50, color = "black", family = "Arial"))
 figure_2A = ggarrange(p1, p2, nrow = 2, align = "hv")
 figure_2A
-ggsave("figures/figure_2A.png", device = "png", width = 14, height = 22)
+ggsave("figures/figure_2A.png", device = "png", width = 15, height = 22)
 
 # 2B: Shared loci between BRCA and clinically associated diseases - figure style like manhattan plot
 shared_loci_ultimate = rbind(bc_depression_shared_loci, bc_hdl_shared_loci, bc_ldl_shared_loci, bc_prostate_shared_loci, bc_scz_shared_loci, bc_t2dm_shared_loci)
@@ -686,29 +686,30 @@ figure_2B = ggplot(chr_length_for_plot, aes(x = BPcum)) +
   geom_rect(xmin = 2829728721, xmax = 2881033286, ymin = -Inf,ymax = Inf, fill = "gray95") +
   geom_point(data = shared_loci_ultimate, 
              aes(x = begin_pos_figure, y = neg_log10_qval, color = disease, shape = disease),
-             size = 9, alpha = 0.9) +
-  scale_x_continuous(labels = axis_label$chr, breaks = axis_label$center, expand = c(0, 1)) +
+             size = 12, alpha = 1) +
+  scale_shape_manual(values = c(16,17,15,18,9,8)) + 
+  scale_x_continuous(labels = axis_label$chr, breaks = axis_label$center, expand = c(0, 1), guide = guide_axis(n.dodge = 2)) +
   scale_y_continuous(breaks = seq(-3, 3, 1), labels = abs(seq(-3, 3, 1))) +
   scale_color_manual(values = c("#1f78b4", "#e31a1c", "#33a02c", "#6a3d9a", "#ff7f00", "deeppink4")) +
   geom_hline(yintercept = 0, color = "black", linewidth = 0.5) +
   labs(x = "Chromosome", y = bquote(-log[10]("LOGODetect q-value"))) +
-  geom_label(aes(x = 0, hjust = -0.02, y = 3, label = "Positively correlated loci"), fill = "#1ABC9C", color = "white", fontface = "bold", family = "Arial", size = 15) +
-  geom_label(aes(x = 0, hjust = -0.02, y = -3, label = "Negatively correlated loci"), fill = "#F8766D", color = "white", fontface = "bold", family = "Arial", size = 15) +
+  geom_label(aes(x = 0, hjust = -0.02, y = 3, label = "Positively correlated loci "), fill = "#1ABC9C", color = "white", fontface = "bold", family = "Arial", size = 18) +
+  geom_label(aes(x = 0, hjust = -0.02, y = -3, label = "Negatively correlated loci "), fill = "#F8766D", color = "white", fontface = "bold", family = "Arial", size = 18) +
   theme_classic() +
   theme(panel.border = element_blank(),
         panel.grid.major.x = element_blank(),
         panel.grid.minor.x = element_blank(),
-        axis.text.x = element_text(size = 50, family = "Arial", color = "black", angle = 0, vjust = 0.5),
-        axis.text.y = element_text(size = 50, family = "Arial", color = "black"),
-        axis.title.y = element_text(size = 64, family = "Arial", color = "black", 
-                                    margin = margin(t = 0, r = 10, b = 0, l = 0)),
-        axis.title.x = element_text(size = 64, family = "Arial", color = "black",
-                                    margin = margin(t = 10, r = 0, b = 0, l = 0)),
-        legend.text = element_text(size = 50, margin = margin(t = 10, b = 10, r = 0, l = 0)),
+        axis.text.x = element_text(size = 60, family = "Arial", color = "black", angle = 0, vjust = 0.5),
+        axis.text.y = element_text(size = 60, family = "Arial", color = "black"),
+        axis.title.y = element_text(size = 70, family = "Arial", color = "black", 
+                                    margin = margin(t = 0, r = 25, b = 0, l = 0)),
+        axis.title.x = element_text(size = 70, family = "Arial", color = "black",
+                                    margin = margin(t = 25, r = 0, b = 0, l = 0)),
+        legend.text = element_text(size = 60, family = "Arial", color = "black", margin = margin(t = 15, b = 15, r = 0, l = 0)),
         legend.title = element_blank(), legend.key.size = unit(2, units = "cm")) +
-  guides(shape = guide_legend(override.aes = list(size = 15)))
+  guides(shape = guide_legend(override.aes = list(size = 25)))
 figure_2B
-ggsave("figures/figure_2B.png", device = "png", width = 49, height = 20)
+ggsave("figures/figure_2B.png", device = "png", width = 54, height = 20, limitsize = FALSE)
 
 ## 2C: number of genes in positively correlated regions and number of genes after applying MAGMA/S-MultiXcan filters
 # filtered for genes in STRING network
@@ -744,7 +745,7 @@ fig2c_data = data.frame(disease = c("high HDL", "Schizophrenia", "Depression", "
                                                       length(unique(bc_t2dm_genes_in_pos_reg_filtered$entrezID))))
 fig2c_data = reshape2::melt(fig2c_data, "disease", colnames(fig2c_data)[2:ncol(fig2c_data)])
 fig2c_data$disease = factor(fig2c_data$disease, levels = fig2c_data$disease, labels = fig2c_data$disease)
-fig2c_data$variable = factor(fig2c_data$variable, levels = c("all", "magma_smultixcan_filtered"), labels = c("All", "After MAGMA & S-MultiXcan filtering"))
+fig2c_data$variable = factor(fig2c_data$variable, levels = c("all", "magma_smultixcan_filtered"), labels = c("All", "After MAGMA &\nS-MultiXcan filtering"))
 figure_2C = ggplot(fig2c_data, aes(x = value, y = disease, fill = variable)) +
   geom_col(position = "identity") +
   scale_fill_manual(values = c("#1ABC9C", "#00798C")) +
@@ -754,16 +755,16 @@ figure_2C = ggplot(fig2c_data, aes(x = value, y = disease, fill = variable)) +
   theme_bw() +
   theme(plot.title = element_text(size = 44, color = "black", family = "Arial"),
         panel.grid.major = element_blank(),
-        axis.text.y.right = element_text(size = 42, color = "black", family = "Arial", face = "bold", hjust = 0.5,
-                                         margin = margin(t = 0, r = 0, b = 0, l = 40)),
-        axis.text.x = element_text(size = 40, color = "black", family = "Arial"),
-        axis.text.y = element_text(size = 42, color = "black", family = "Arial", face = "bold"),
-        axis.title.x = element_text(size = 40, color = "black", family = "Arial"),
+        # axis.text.y.right = element_text(size = 50, color = "black", family = "Arial", face = "bold", hjust = 0.5,
+        #                                  margin = margin(t = 0, r = 0, b = 0, l = 40)),
+        axis.text.x = element_text(size = 55, color = "black", family = "Arial"),
+        axis.text.y = element_text(size = 55, color = "black", family = "Arial", face = "bold"),
+        axis.title.x = element_text(size = 58, color = "black", family = "Arial"),
         legend.justification = "top",
         legend.title = element_blank(),
-        legend.text = element_text(size = 40, color = "black", family = "Arial"),
-        legend.key.size = unit(1.5,"line"), 
-        legend.spacing.y = unit(0.2, 'cm')) +
+        legend.text = element_text(size = 55, color = "black", family = "Arial"),
+        legend.key.size = unit(2,"line"), 
+        legend.spacing.y = unit(0.5, 'cm')) +
   guides(fill = guide_legend(byrow = TRUE))
 figure_2C
 ggsave("figures/figure_2C.png", device = "png", width = 26, height = 14)
