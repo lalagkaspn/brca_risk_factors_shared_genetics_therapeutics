@@ -1290,18 +1290,18 @@ plot(graph, layout = layout.k_partite(graph),
      vertex.color = c("orange", "orange", "green4", "green4", "green4", "green4", "green4", "steelblue", "steelblue", "steelblue" ,"steelblue", "steelblue"),
      
      vertex.label.color = "black",
-     vertex.label.family = "Arial",                  # Font family of the label (e.g.“Times”, “Helvetica”)
+     vertex.label.family = "Arial",                  # Font family of the label (e.g.“Times”, “Helvetica”)  
      vertex.label.font = c(4,4,2,2,2,2,2,2,2,2,2,2),
      vertex.label.dist = 2,
      vertex.label.degree = 300,
      
      edge.color = "gray60",
-     edge.width = 1.5,
+     edge.width = 2,
      edge.arrow.size = 0,
      edge.arrow.width = 0,
      edge.curved = 0.3)
 # manual save
-# 850 x 1000
+# 850 x 100
 
 rm(shared_genes_to_canonical_pathways, bc_hdl_sig_cp, hdl_drugs, edges, graph, v_layers_df, v_layers, layout.k_partite)
 rm(bc_depression_sig_cp_genes, bc_depression_sig_cps, bc_hdl_drug_to_sig_cp, bc_hdl_sig_cp_genes, bc_hdl_sig_cps, bc_hdl_temp, bc_ldl_sig_cp_genes, bc_ldl_sig_cps, bc_prostate_sig_cp_genes, bc_prostate_sig_cps, bc_schizophrenia_sig_cps, bc_scz_sig_cp_genes, bc_t2dm_sig_cp_genes, bc_t2dm_sig_cps, kegg_cps_heatmap_data, temp, col , colors, cp, disease_pair, drug_temp, kegg_cps, row, shared_gene_temp)
