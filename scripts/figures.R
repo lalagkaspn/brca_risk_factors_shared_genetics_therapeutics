@@ -594,33 +594,35 @@ shared_loci_ultimate_negative$disease = factor(shared_loci_ultimate_negative$dis
 
 p1 = ggplot(shared_loci_ultimate_negative, aes(x = value, y = disease)) +
   geom_col(fill = "#F8766D") + 
-  labs(title = bquote(bold("Negatively") ~ "correlated loci with breast cancer")) +
-  xlab("\n Number of loci") +
+  labs(title = bquote(atop(bold("Negatively"), "correlated loci with breast cancer"))) +
+  xlab("Number of loci") +
   ylab("") +
   scale_x_reverse(breaks = seq(0, 40, 5), limits = c(40, 0)) +
   scale_y_discrete(position = "right") +
   theme_bw() +
-  theme(plot.title = element_text(size = 50, color = "black", family = "Arial"),
-        panel.grid.major = element_blank(),
-        axis.text.y.right = element_text(size = 46, color = "black", family = "Arial", face = "bold", hjust = 0.5,
+  theme(plot.title = element_text(size = 60, color = "black", family = "Arial", margin = margin(t = 40, b = 40)),
+        panel.grid.major.x = element_line(color = "lightgrey"),
+        panel.grid.major.y = element_blank(),
+        axis.text.y.right = element_text(size = 55, color = "black", family = "Arial", face = "bold", hjust = 0.5,
                                          margin = margin(t = 0, r = 0, b = 0, l = 40)),
-        axis.text.x = element_text(size = 50, color = "black", family = "Arial"),
-        axis.title.x = element_text(size = 50, color = "black", family = "Arial"))
+        axis.text.x = element_text(size = 55, color = "black", family = "Arial"),
+        axis.title.x = element_text(size = 58, color = "black", family = "Arial", margin = margin(t = 40)))
 p2 = ggplot(shared_loci_ultimate_positive, aes(x = value, y = disease)) +
   geom_col(fill = "#1ABC9C") + 
-  labs(title = bquote(bold("Positively") ~ "correlated loci with breast cancer")) +
-  xlab("\nNumber of loci") +
+  labs(title = bquote(atop(bold("Positively"), "correlated loci with breast cancer"))) +
+  xlab("Number of loci") +
   ylab("") +
   scale_x_continuous(breaks = seq(0, 40, 5), limits = c(0, 40)) +
   theme_bw() +
-  theme(plot.title = element_text(size = 50, color = "black", family = "Arial"),
-        panel.grid.major = element_blank(),
+  theme(plot.title = element_text(size = 60, color = "black", family = "Arial", margin = margin(t = 40, b = 40)),
+        panel.grid.major.x = element_line(color = "lightgrey"),
+        panel.grid.major.y = element_blank(),
         axis.text.y = element_blank(),
-        axis.text.x = element_text(size = 50, color = "black", family = "Arial"),
-        axis.title.x = element_text(size = 50, color = "black", family = "Arial"))
-figure_2A = ggarrange(p1, p2, nrow = 2, align = "hv")
+        axis.text.x = element_text(size = 55, color = "black", family = "Arial"),
+        axis.title.x = element_text(size = 58, color = "black", family = "Arial", margin = margin(t = 40)))
+figure_2A = ggarrange(p1, p2, nrow = 1, align = "hv")
 figure_2A
-ggsave("figures/figure_2A.png", device = "png", width = 15, height = 22)
+ggsave("figures/figure_2A.png", device = "png", width = 36, height = 12)
 
 # 2B: Shared loci between BRCA and clinically associated diseases - figure style like manhattan plot
 shared_loci_ultimate = rbind(bc_depression_shared_loci, bc_hdl_shared_loci, bc_ldl_shared_loci, bc_prostate_shared_loci, bc_scz_shared_loci, bc_t2dm_shared_loci)
@@ -693,8 +695,8 @@ figure_2B = ggplot(chr_length_for_plot, aes(x = BPcum)) +
   scale_color_manual(values = c("#1f78b4", "#e31a1c", "#33a02c", "#6a3d9a", "#ff7f00", "deeppink4")) +
   geom_hline(yintercept = 0, color = "black", linewidth = 0.5) +
   labs(x = "Chromosome", y = bquote(-log[10]("LOGODetect q-value"))) +
-  geom_label(aes(x = 0, hjust = -0.02, y = 3, label = "Positively correlated loci "), fill = "#1ABC9C", color = "white", fontface = "bold", family = "Arial", size = 18) +
-  geom_label(aes(x = 0, hjust = -0.02, y = -3, label = "Negatively correlated loci "), fill = "#F8766D", color = "white", fontface = "bold", family = "Arial", size = 18) +
+  geom_label(aes(x = 0, hjust = -0.02, y = 3, label = "Positively correlated loci "), fill = "#1ABC9C", color = "white", fontface = "bold", family = "Arial", size = 24) +
+  geom_label(aes(x = 0, hjust = -0.02, y = -3, label = "Negatively correlated loci "), fill = "#F8766D", color = "white", fontface = "bold", family = "Arial", size = 24) +
   theme_classic() +
   theme(panel.border = element_blank(),
         panel.grid.major.x = element_blank(),
@@ -749,14 +751,14 @@ fig2c_data$variable = factor(fig2c_data$variable, levels = c("all", "magma_smult
 figure_2C = ggplot(fig2c_data, aes(x = value, y = disease, fill = variable)) +
   geom_col(position = "identity") +
   scale_fill_manual(values = c("#1ABC9C", "#00798C")) +
+  labs(title = "\n\n") + # for aesthetics 
   xlab("\nNumber of genes\nin positively correlated loci with breast cancer") +
   ylab("") +
   scale_x_continuous(breaks = seq(0, 75, 10), limits = c(0, 75)) +
   theme_bw() +
   theme(plot.title = element_text(size = 44, color = "black", family = "Arial"),
-        panel.grid.major = element_blank(),
-        # axis.text.y.right = element_text(size = 50, color = "black", family = "Arial", face = "bold", hjust = 0.5,
-        #                                  margin = margin(t = 0, r = 0, b = 0, l = 40)),
+        panel.grid.major.x = element_line(color = "lightgrey"),
+        panel.grid.major.y = element_blank(),
         axis.text.x = element_text(size = 55, color = "black", family = "Arial"),
         axis.text.y = element_text(size = 55, color = "black", family = "Arial", face = "bold"),
         axis.title.x = element_text(size = 58, color = "black", family = "Arial"),
@@ -768,6 +770,13 @@ figure_2C = ggplot(fig2c_data, aes(x = value, y = disease, fill = variable)) +
   guides(fill = guide_legend(byrow = TRUE))
 figure_2C
 ggsave("figures/figure_2C.png", device = "png", width = 26, height = 14)
+
+## full figure 2
+figure_2_top_row = ggarrange(figure_2A, figure_2C, ncol = 2, nrow = 1, heights = c(0.5, 1), widths = c(1.5, 1)) +
+  theme(plot.margin = margin(t = 0, r = 0, b = 80, l = 0)) 
+figure_2_all = ggarrange(figure_2_top_row, figure_2B, ncol = 1, nrow = 2)
+figure_2_all
+ggsave("figures/figure_2_all.png", device = "png", width = 60, height = 40, limitsize = FALSE, dpi = 300)
 
 rm(axis_label, axis.set, bc_depression_genes_in_pos_reg, chrom_length, chr_length_for_plot, bc_depression_genes_in_pos_reg_filtered, bc_depression_shared_loci, bc_hdl_genes_in_pos_reg, bc_hdl_genes_in_pos_reg_filtered, bc_hdl_shared_loci, bc_ldl_genes_in_pos_reg, bc_ldl_genes_in_pos_reg_filtered, bc_ldl_shared_loci, bc_prostate_genes_in_pos_reg, bc_prostate_genes_in_pos_reg_filtered, bc_prostate_shared_loci, bc_scz_genes_in_pos_reg, bc_scz_genes_in_pos_reg_filtered, bc_scz_shared_loci, bc_t2dm_genes_in_pos_reg, bc_t2dm_genes_in_pos_reg_filtered, bc_t2dm_shared_loci, fig2c_data, genes_in_string_high_conf, nCHR, p1, p2, shared_loci_ultimate, string_high_conf)
 
