@@ -270,7 +270,7 @@ drugs_cps_recommended = rbind(depression_drugs, hdl_drugs, ldl_drugs, prostate_d
 drugs_cps_recommended$`Current drug development phase for breast cancer` = ifelse(drugs_cps_recommended$`Current drug development phase for breast cancer` == "4", "Approved", drugs_cps_recommended$`Current drug development phase for breast cancer`)
 drugs_cps_recommended$`Current drug development phase for breast cancer` = ifelse(drugs_cps_recommended$`Current drug development phase for breast cancer` == "1", "Phase I", drugs_cps_recommended$`Current drug development phase for breast cancer`)
 drugs_cps_recommended$`Current drug development phase for breast cancer` = ifelse(drugs_cps_recommended$`Current drug development phase for breast cancer` == "2", "Phase II", drugs_cps_recommended$`Current drug development phase for breast cancer`)
-drugs_cps_recommended$`Current drug development phase for breast cancer` = ifelse(drugs_cps_recommended$`Current drug development phase for breast cancer` == "3", "Phase II", drugs_cps_recommended$`Current drug development phase for breast cancer`)
+drugs_cps_recommended$`Current drug development phase for breast cancer` = ifelse(drugs_cps_recommended$`Current drug development phase for breast cancer` == "3", "Phase III", drugs_cps_recommended$`Current drug development phase for breast cancer`)
 # fix some drugbank IDs
 # drugs_cps_recommended[which(is.na(drugs_cps_recommended$`DrugBank ID`)), ]
 drugs_cps_recommended[35, "DrugBank ID"] = "DB11936"
@@ -279,4 +279,4 @@ drugs_cps_recommended[63, "DrugBank ID"] = "DB16778"
 drugs_cps_recommended[103, "DrugBank ID"] = "DB00030"
 
 drugs_cps_recommended = drugs_cps_recommended %>% dplyr::select(`Drug Name`, `DrugBank ID`, Indication, `Recommended for breast cancer repurposing`, `Current drug development phase for breast cancer`, `Connected to shared canonical pathway`)
-write.xlsx(drugs_cps_recommended, file = "supplementary_tables/supplementary_tables/S5_drugs_to_shared_genetics.xlsx")
+write.xlsx(drugs_cps_recommended, file = "supplementary_tables/S5_drugs_to_shared_genetics.xlsx")
