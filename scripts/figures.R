@@ -1442,7 +1442,7 @@ drugs_PAall = drugs_PAall %>%
   mutate(recommended = max(recommended)) %>%
   ungroup() %>%
   distinct()
-# from thhe above drugs, ones that are investigater/indicated for bc
+# from the above drugs, ones that are investigater/indicated for bc
 bc_inv_ind_diseases_drugs_overlap$drug_name = tolower(bc_inv_ind_diseases_drugs_overlap$drug_name)
 
 # data for plot
